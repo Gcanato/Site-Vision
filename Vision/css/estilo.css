@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,400,900');
+
+*{
+	margin:0;
+	padding:0;
+	
+}
+body{
+	font-size:100%;
+	font-family: 'Montserrat', sans-serif;
+	overflow-x:hidden;
+}
+h1, h2, h3,h4{
+	
+	text-align:center;
+	
+}
+h1{
+   
+    font-size:56px;	
+	margin-bottom:30px;
+	}
+	
+h2{
+	font-size:36px;
+	
+	
+}
+
+h3{
+	font-size:28px;
+	margin-top:20px;
+	margin-bottom:20px;
+	
+}
+
+p{
+	line-height:30px;
+}
+
+.secoes{
+    
+    padding: 30px;
+    height: auto;
+    margin: 0;
+}
+
+#secao3{
+  background-color:#d6d6d6;  
+}
+
+ .conteudo{
+	 
+	 margin-bottom:720px;
+ }
+
+#bg-video, #bg-video-overlay, .cabecalho{
+		
+  position:absolute;
+  top:0;
+  left:0;
+  
+}
+
+#bg-video, #bg-video-overlay {
+  /*
+  min-width:100%;
+  min-height:100%;
+  */
+  width:1280px;
+  height:720px;
+  
+}
+ 
+ #bg-video-overlay{
+	z-index: 1;
+	background: transparent url(../imagens/pattern.png) repeat top left;
+	
+ }
+ #clear{
+	 clear:both;
+ }
+ .cabecalho{	 
+	z-index:3;
+    position: absolute;
+    top:0;
+	right:0;
+    width: 100%; 
+	height:auto;
+	background-color:rgba(255,255,255,1);
+ }
+ 
+ .cabecalho .logo{
+	 
+	 margin:12px 0 12px 20px;
+	 width:210px;
+	 height:50px;
+ }
+ .menu{
+	text-transform: lowercase;
+    position:absolute;
+    top:40%;
+    right:3%;    
+    	
+ }
+ .menu ul{
+	
+ }
+ 
+.menu li{
+	 display:inline;
+	 padding:0 0 0 15px;
+ }
+ 
+ .menu li a{
+	 text-decoration:none;
+	 color:inherit;
+ }
+ 
+ .menu li a:hover{
+	 color:yellow;
+	 
+ }
+ 
+ .slogan {
+    z-index: 2;
+    position: absolute;
+    bottom:30%;
+    left: 15%;
+    width: 70%;
+    text-align: center; 
+    margin:0 auto;	
+    color: #fff;
+	text-transform: uppercase;
+    border-top: 3px solid #fff;	
+	border-bottom: 3px solid #fff;
+    }
+ .slogan h1{
+	padding: 10px 0 0 0;
+	font-size:50px;
+	font-weight:bold;
+	 
+ }
+ 
+ .slogan h4{
+	padding: 10px 0 20px 0; 
+	font-size:20px;
+	font-weight:normal;
+	 
+ }
+ 
+ .secoes{
+    
+    padding: 30px;
+    height: auto;
+    margin: 0;
+}
+
+.servicos ul{
+	
+	list-style:circle;
+	padding:0 0 0 30px;
+}
+
+.servicos li{
+	
+	font-weight:700;
+}
+ul{
+    margin-bottom:20px;
+    padding:0;
+    list-style: none;
+}
+
+li{
+    
+    padding: 15px 20px;
+}
+
+.imagens img{
+    
+    width:100%;
+	margin:0 auto;
+    
+}
+
+footer{
+    
+   background: #000; 
+   padding:20px 0 20px 0;
+}
+footer p{
+	
+	color:#fff;
+}
+.container{
+    width:900px;
+    margin: auto;
+}
+.blocos{
+	
+	text-align: center;
+	height:500px;
+}
+.blocos p{
+	text-align:left;
+	font-size:14px;
+}
+.bloco-esquerda{
+	width:271.3px;
+	height:auto;
+	float:left;
+	padding-right:20px;
+}
+
+.bloco-centro{
+	width:271.3px;
+	height:auto;
+	float:left;
+	padding:0 20px 0 20px;
+	border-right:3px dotted gray;
+	border-left:3px dotted gray;
+}
+
+.bloco-direita{
+	width:271.3px;
+	height:auto;	
+	float:left;	
+	padding-left:20px;
+}
+
+/* formulario de contato */
+
+form {
+    
+    max-width: 800px;
+	margin:0 auto;
+	text-align:center;
+}
+ 
+
+ 
+input, textarea {
+    width: 800px;
+    padding: 10px;
+    color: black;        
+    border: 1px solid;
+}
+ 
+input:hover, textarea:hover, input:focus, textarea:focus {
+    border-color: #d4d2d2;
+    box-shadow: 5px 0px 9px #e5e5e5;
+    background-color: #e5e5e5;
+    color: black;
+    font-weight: bold;
+}
+ 
+.submit input {
+    background-color: #000;
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    cursor:pointer;    
+    border: 1px solid;
+    color: #fff;
+}
+
+.submit input :hover{	
+	background-color: yellow;
+	color:#000;
+}
+ 
+textarea {
+    width: 800px;
+    height: 120px;
+    line-height: 20px;
+    max-width: 800px;
+}
+ 
+form label {
+    
+    color: #FFFFFF;
+    font-weight: bold;
+}
